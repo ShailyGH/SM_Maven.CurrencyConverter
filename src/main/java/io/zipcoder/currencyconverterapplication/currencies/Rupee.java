@@ -6,6 +6,6 @@ import io.zipcoder.currencyconverterapplication.CurrencyType;
 public class Rupee implements ConvertableCurrency {
     @Override
     public CurrencyType getType() {
-        return null;
+        return CurrencyType.RUPEE;
     }
 }
